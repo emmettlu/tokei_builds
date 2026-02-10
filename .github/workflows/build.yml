@@ -7,10 +7,10 @@ on:
 jobs:
   build:
     env:
-      PROJECT_REPOSITORY: watchexec/watchexec
-      PROJECT_VERSION: v2.3.2
-      PROJECT_PATH: watchexec
-      PROJECT_BIN: watchexec
+      PROJECT_REPOSITORY: XAMPPRocky/tokei
+      PROJECT_VERSION: v14.0.0
+      PROJECT_PATH: tokei
+      PROJECT_BIN: tokei
     strategy:
       matrix:
         os: [ubuntu-24.04, windows-2022]
