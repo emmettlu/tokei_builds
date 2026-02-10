@@ -64,6 +64,7 @@ jobs:
         working-directory: ${{ env.PROJECT_PATH }}
         run: |
           rm -f Cargo.lock
+          cargo version
           cargo update
           cargo b -r
 
